@@ -57,7 +57,7 @@ function Home() {
                 {/* /.card */}
                 <div className="card justify-content-center">
                   <div className="card-header border-0">
-                    <h3 className="card-title">Wiafu2</h3>
+                    <h3 className="card-title">Bolsa 2</h3>
                   </div>
                   <img
                     className="card-img-top img-responsive"
@@ -65,7 +65,7 @@ function Home() {
                     alt="Card image cap"
                   />
                   <div className="card-body">
-                    <p className="card-text">Asuna Yuki: Swort Art onlines</p>
+                    <p className="card-text">Descripcion</p>
                     <button type="button" className="btn btn-success">
                       Descargar
                     </button>
@@ -78,7 +78,7 @@ function Home() {
                 <div className="card">
                   <div className="card-header border-0">
                     <div className="d-flex justify-content-between">
-                      <h3 className="card-title">Waufu 3</h3>
+                      <h3 className="card-title">Bolsa 3</h3>
                     </div>
                   </div>
                   <img
@@ -88,7 +88,7 @@ function Home() {
                   />
                   <div className="card-body">
                     <p className="card-text">
-                      Anonima: Imagen anime printerest
+                    Descripcion
                     </p>
                     <button type="button" className="btn btn-success">
                       Descargar
@@ -98,15 +98,14 @@ function Home() {
                 {/* /.card */}
                 <div className="card">
                   <div className="card-header border-0">
-                    <h3 className="card-title">Waifu 4</h3>
+                    <h3 className="card-title">Bolsa 4</h3>
                   </div>
                   <img
                     className="card-img-top"
                     src={Piwi}
                     alt="Card image cap"
                   />
-                  <div className="card-body">
-                    <p className="card-text">Fujiwara: Anime Fujiwara Zakuro</p>
+                  <div className="card-body"> <p>Descripcion</p>
                     <button type="button" className="btn btn-success">
                       Descargar
                     </button>

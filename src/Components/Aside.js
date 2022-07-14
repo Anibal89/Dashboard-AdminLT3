@@ -1,20 +1,16 @@
-import React from "react";
 import IconoUser from "../Img/user2-160x160.jpg";
 import { NavLink } from "react-router-dom";
-import Logounisa from '../Img/logounisa.png';
+import Logounisa from "../Img/logounisa.png";
+import React from "react";
 
 function Aside() {
   return (
     <aside className="main-sidebar sidebar-dark-primary elevation-4">
       {/* Brand Logo */}
       <a className="brand-link">
-        <img
-          src={Logounisa}
-          alt="AdminLTE Logo"
-          className="brand-image"
-        />
+        <img src={Logounisa} alt="AdminLTE Logo" className="brand-image" />
         <span className="font-weight-light">Software</span>
-     </a>
+      </a>
       {/* Sidebar */}
       <div className="sidebar">
         {/* Sidebar user panel (optional) */}
@@ -50,11 +46,16 @@ function Aside() {
         </div>
         {/* Sidebar Menu */}
         <nav className="mt-2">
-          <ul className="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <ul
+            className="nav nav-pills nav-sidebar flex-column"
+            data-widget="treeview"
+            role="menu"
+            data-accordion="false"
+          >
             {/* Add icons to the links using the .nav-icon class
          with font-awesome or any other icon font library */}
             <li className="nav-item menu-open">
-              <NavLink to="/" className ="nav-link">
+              <NavLink to="/" className="nav-link">
                 <i className="nav-icon fas fa-tachometer-alt" />
                 <p>Dashboard</p>
               </NavLink>
@@ -71,20 +72,11 @@ function Aside() {
                 <p>Modulo 2</p>
               </NavLink>
             </li>
-            <li className="nav-item">
-              <a href="#" className="nav-link">
-                <i className="nav-icon fas fa-table" />
-                <p>
-                  Modulo Tablas
-                  <i className="fas fa-angle-left right" />
-                </p>
-              </a>
-            </li>
             <li className="nav-header">Paginas</li>
             <li className="nav-item">
               <a href="pages/calendar.html" className="nav-link">
                 <i className="nav-icon far fa-calendar-alt" />
-                <p>Modulo 1</p>
+                <p>Modulo 1 </p>
               </a>
             </li>
             <li className="nav-item">
