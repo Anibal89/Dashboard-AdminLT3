@@ -34,7 +34,7 @@ function Modulo1() {
           <div className="card-body">
             <div className="row">
               <div className="col-sm-2">
-                <img src={Touka} className="img-fluid mb-2" alt="white sample" />  
+                <img  href="https://via.placeholder.com/1200/000000.png?text=2" className="img-fluid mb-2" alt="white sample" />  
               </div>
               <div className="col-sm-2">
                 <a href="https://via.placeholder.com/1200/000000.png?text=2" data-toggle="lightbox" data-title="sample 2 - black" data-gallery="gallery">
