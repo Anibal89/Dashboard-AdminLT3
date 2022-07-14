@@ -6,7 +6,7 @@ function Header() {
   {/* Left navbar links */}
   <ul className="navbar-nav">
     <li className="nav-item d-none d-sm-inline-block">
-      <a href="index3.html" className="nav-link">Inicios</a>
+      <a href="index3.html" className="nav-link">Inicio</a>
     </li>
     <li className="nav-item d-none d-sm-inline-block">
       <a href="#" className="nav-link">Soporte</a>
