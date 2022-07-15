@@ -97,14 +97,14 @@ function Home() {
                 </div>
                 {/* /.card */}
                 <div className="card">
-              {/*   <div className="d-flex justify-content-between"  style={{width: '100%'}}>
-                <ReactPlayer
+                {<div className="d-flex justify-content-between"  style={{width: '100%'}}>
+                {/* <ReactPlayer
                   url="https://youtu.be/EoBHRvbKrCQ"
                   controls
                   playing
                   muted
-                  />
-                </div> */}
+                  /> */}
+                </div>}
                  <div className="card-header border-0">
                     <div className="d-flex justify-content-between">
                       <h3 className="card-title">Bolsa 3</h3>
