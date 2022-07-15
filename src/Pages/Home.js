@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import bolsag from "../Img/bolsag.png"
 import Oferta from "../Img/oferta.jpg"
 import Piwi from "../Img/piwis.jpg";
-
+import ReactPlayer from "react-player";
 
 function Home() {
   return (
@@ -97,21 +97,34 @@ function Home() {
                 </div>
                 {/* /.card */}
                 <div className="card">
-                  <div className="card-header border-0">
-                    <h3 className="card-title">Bolsa 4</h3>
+              {/*   <div className="d-flex justify-content-between"  style={{width: '100%'}}>
+                <ReactPlayer
+                  url="https://youtu.be/EoBHRvbKrCQ"
+                  controls
+                  playing
+                  muted
+                  />
+                </div> */}
+                 <div className="card-header border-0">
+                    <div className="d-flex justify-content-between">
+                      <h3 className="card-title">Bolsa 3</h3>
+                    </div>
                   </div>
                   <img
                     className="card-img-top"
                     src={Piwi}
                     alt="Card image cap"
                   />
-                  <div className="card-body"> <p>Descripcion</p>
+                <div className="card-body">
+                    <p className="card-text">
+                    Descripcion
+                    </p>
                     <button type="button" className="btn btn-success">
                       Descargar
                     </button>
                   </div>
-                </div>
-              </div>
+               </div>
+                  </div>
               {/* /.col-md-6 */}
             </div>
             {/* /.row */}

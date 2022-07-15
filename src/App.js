@@ -8,6 +8,7 @@ import Aside from "./Components/Aside";
 import Them from "./Components/Them";
 import Footer from './Components/Footer';
 import Modulo2 from './Pages/Modulo2';
+import Modulo3 from "./Pages/Modulo3";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/modulo1" element={<Modulo1 />} />
         <Route exact path="/modulo2" element={<Modulo2 />} />
+        <Route exact path="/modulo3" element={<Modulo3 />} />
       </Routes>
       <Footer/>
       <Them/>

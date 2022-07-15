@@ -72,6 +72,12 @@ function Aside() {
                 <p>Modulo 2</p>
               </NavLink>
             </li>
+            <li className="nav-item menu-open">
+              <NavLink to="/modulo3" className="nav-link">
+                <i className="nav-icon fas fa-tachometer-alt" />
+                <p>Modulo 3</p>
+              </NavLink>
+            </li>
             <li className="nav-header">Paginas</li>
             <li className="nav-item">
               <a href="pages/calendar.html" className="nav-link">
