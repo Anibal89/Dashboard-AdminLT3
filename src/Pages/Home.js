@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import bolsag from "../Img/bolsag.png"
 import Oferta from "../Img/oferta.jpg"
 import Piwi from "../Img/piwis.jpg";
-import ReactPlayer from "react-player";
+
 
 function Home() {
   return (
@@ -98,12 +98,6 @@ function Home() {
                 {/* /.card */}
                 <div className="card">
                 {<div className="d-flex justify-content-between"  style={{width: '100%'}}>
-                {/* <ReactPlayer
-                  url="https://youtu.be/EoBHRvbKrCQ"
-                  controls
-                  playing
-                  muted
-                  /> */}
                 </div>}
                  <div className="card-header border-0">
                     <div className="d-flex justify-content-between">
