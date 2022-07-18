@@ -59,6 +59,24 @@ function Modulo3() {
               
                 {/* /.card */}
               </div>
+              <div className="col-sm">
+                <div className="card">
+                  <div className="card-header border-0">
+                    <div className="d-flex justify-content-between">
+                      <h3 className="card-title">Bolsa </h3>
+                    </div>
+                  </div>
+                  <div className="card-body">
+                   
+                    <button type="button" className="btn btn-success">
+                      Descargar
+                    </button>
+                  </div>
+                </div>
+                {/* /.card */}
+              
+                {/* /.card */}
+              </div>
               {/* /.col-md-6 */}
               {/* /.col-md-6 */}
             </div>
