@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
     const Tablas2 = ({ tabla2 }) => {
         return (
             <div className='table-responsive'>
@@ -20,16 +18,16 @@ import React from 'react'
                     </tr>
                 </thead>
                 <tbody>
-                    {tabla2.map(extrusion_b2 => (
-                        <tr key={extrusion_b2.Id}>
-                            <td >{extrusion_b2.Id}</td>
-                            <td>{extrusion_b2.tipoMaterial}</td>
-                            <td>{extrusion_b2.turno}</td>
-                            <td>{extrusion_b2.fecha}</td>
-                            <td>{extrusion_b2.supervisor}</td>
-                            <td>{extrusion_b2.operador}</td>
-                            <td>{extrusion_b2.peso}</td>
-                            <td>{extrusion_b2.maquina}</td>
+                    {tabla2.map(tabla => (
+                        <tr key={tabla.Id}>
+                            <td >{tabla.Id}</td>
+                            <td>{tabla.tipoMaterial}</td>
+                            <td>{tabla.turno}</td>
+                            <td>{tabla.fecha}</td>
+                            <td>{tabla.supervisor}</td>
+                            <td>{tabla.operador}</td>
+                            <td>{tabla.peso}</td>
+                            <td>{tabla.maquina}</td>
                             <td>
                                 <button type="button" className="btn btn-success">Editar</button>{" "}
                                 <button type="button" className="btn btn-danger">Eliminar</button>

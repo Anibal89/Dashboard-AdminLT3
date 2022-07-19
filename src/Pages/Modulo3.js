@@ -1,14 +1,30 @@
 import React, { Fragment, useEffect, useState } from "react";
-import Tablas2 from "./Tablas";
+import Tablas2 from "./Tablas"; 
+import Form from './Form';
 
 function Modulo3() {
-  const [tabla2, setTabla] = useState([]); /// funcion que captura en formato array - json
+
+  //hooks de estado del formulario
+
+  const [tabla, setTabla] = useState({
+
+    tipoMaterial: '',
+    turno: '',
+    fecha: '',
+    supervisor: '',
+    operador: '',
+    peso: '',
+    maquina: 0
+
+})
+// Hooks de actualizacion de la tabla 
+  const [tabla2, setTablas] = useState([]); /// funcion que captura en formato array - json
 
   useEffect(() => {
     const getTablas = () => {
-      fetch("http://localhost:80/api-swort/")
-        .then((res) => res.json())
-        .then((res) => setTabla(res));
+      fetch('http://localhost:80/api-swort/')
+        .then(res => res.json())
+        .then(data => setTablas(data));
     };
     getTablas();
   }, []);
@@ -45,11 +61,11 @@ function Modulo3() {
                 <div className="card">
                   <div className="card-header border-0">
                     <div className="d-flex justify-content-between">
-                      <h3 className="card-title">Bolsa </h3>
+                      <h3 className="card-title">Tabla de datos </h3>
                     </div>
                   </div>
                   <div className="card-body">
-                    <Tablas2 tabla2={tabla2} />
+                    <Tablas2 tabla2={tabla2} setTabla={setTabla} tabla2={tabla2} />
                     <button type="button" className="btn btn-success">
                       Descargar
                     </button>
@@ -63,14 +79,11 @@ function Modulo3() {
                 <div className="card">
                   <div className="card-header border-0">
                     <div className="d-flex justify-content-between">
-                      <h3 className="card-title">Bolsa </h3>
+                      <h3 className="card-title">Formulario </h3>
                     </div>
                   </div>
                   <div className="card-body">
-                   
-                    <button type="button" className="btn btn-success">
-                      Descargar
-                    </button>
+                  <Form tabla={tabla} setTabla={setTabla}/>
                   </div>
                 </div>
                 {/* /.card */}
