@@ -65,7 +65,7 @@ function Modulo3() {
                     </div>
                   </div>
                   <div className="card-body">
-                    <Tablas2 tabla2={tabla2} setTabla={setTabla} tabla2={tabla2} />
+                    <Tablas2 tabla2={tabla2} setTabla={setTabla} />
                     <button type="button" className="btn btn-success">
                       Descargar
                     </button>
